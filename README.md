@@ -17,7 +17,7 @@ In order to build out the infrastructure included in `main.tf` you will need an 
 
 Once you have your AWS Config set up, make sure you are in `altana-vpc` directory and run `terraform init` and `terraform apply` (assuming you have terraform installed).
 
-Some things I would improve on the project with more time:
+## Some things I would improve on the project with more time:
 - As mentioned, build out the reamining portions of the project, including Load Balancer and container applications
 - The EKS Cluster does not contain any nodes, so I would include the node group creation along with the IAM roles needed for the nodes
 - Break out modules into individual files for more control over configuration
